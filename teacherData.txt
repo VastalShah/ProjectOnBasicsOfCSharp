@@ -1,0 +1,4 @@
+Ram, 30, CSE
+Sita, 25, ME
+Shyam, 35, Civil
+Geeta, 31, PE
