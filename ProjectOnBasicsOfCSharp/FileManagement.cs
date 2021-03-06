@@ -9,13 +9,13 @@ namespace ProjectOnBasicsOfCSharp
     {
         public static void Do()
         {
-            WriteTeacherDetails();
-            ReadTeacherDetails();
+            WriteStudentDetails();
+            ReadStudentDetails();
         }
-        private static void WriteTeacherDetails()
+        private static void WriteStudentDetails()
         {
             string dir = Directory.GetCurrentDirectory();
-            string path = dir + "\\teacherData.txt";
+            string path = dir + "\\studentData.txt";
             Console.WriteLine(path);
             if(File.Exists(path))
             {
@@ -35,10 +35,10 @@ namespace ProjectOnBasicsOfCSharp
             Console.WriteLine("Content has been added to the file.");
         }
 
-        private static void ReadTeacherDetails()
+        private static void ReadStudentDetails()
         {
             string dir = Directory.GetCurrentDirectory();
-            string path = dir + "\\teacherData.txt";
+            string path = dir + "\\studentData.txt";
             Console.WriteLine("Reading File...");
             if (File.Exists(path))
             {
